@@ -1,17 +1,4 @@
-import "./styles/index.scss";
+import {render} from "react-dom";
+import App from "./components/App";
 
-const info = {
-    name: "Adrian",
-    age: 23,
-    country: "CR"
-};
-
-const info2 = {
-    name: "Adrian",
-    lastname: "Morales",
-    age: 23,
-    country: "CR"
-};
-
-console.log(info);
-console.log(info2);
+render(<App/>, document.getElementById("root"));
